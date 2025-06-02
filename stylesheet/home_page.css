@@ -1,0 +1,115 @@
+
+
+@media screen and (max-width: 700px) {
+    #resume-button {
+        border: 0;
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 9px;
+        color: var(--font-color01);
+        background: var(--accent-color01);
+    }
+    #resume-button:hover {
+        background-color: var(--accent-color02);
+        transition: .4s;
+    }
+    .text-content {
+        align-self: center;
+    }
+    .text-content h1 span {
+        color: var(--accent-color01);
+    }
+    .text-content h1, p, button{
+        margin: 10px 0;
+    }
+    .profile-image {
+        display: grid;
+    }
+    .profile-image img {
+        width: 200px;
+        place-self: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    #resume-button {
+        border: 0;
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 9px;
+        color: var(--font-color01);
+        background: var(--accent-color01);
+        cursor: pointer;
+    }
+    #resume-button:hover {
+        background-color: var(--accent-color02);
+        transition: .4s;
+    }
+    .text-content {
+        align-self: center;
+    }
+    .text-content h1 {
+        font-size: 3rem;
+    }
+    .text-content h1 span {
+        color: var(--accent-color01);
+    }
+    .text-content h1, p, button{
+        margin: 10px 0;
+    }
+    .profile-image {
+        display: grid;
+    }
+    .profile-image img {
+        width: 300px;
+        place-self: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #resume-button {
+        border: 0;
+        padding: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 9px;
+        color: var(--font-color01);
+        background: var(--accent-color01);
+        cursor: pointer;
+    }
+    #resume-button:hover {
+        background-color: var(--accent-color02);
+        transition: .4s;
+    }
+    .text-content {
+        align-self: center;
+    }
+    .text-content h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    .text-content h1 span {
+        color: var(--accent-color01);
+    }
+    .text-content p {
+        font-size: 1.25rem;
+    }
+    .text-content h1, p, button{
+        margin: 15px 0;
+    }
+    .profile-image {
+        display: grid;
+    }
+    .profile-image img {
+        width: 300px;
+        place-self: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}

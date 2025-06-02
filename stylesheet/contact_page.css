@@ -1,0 +1,227 @@
+
+@media screen and (max-width: 700px) {
+    .box:first-child {
+        grid-column: 1 / 7;
+        background: var(--bg-color02);
+
+        padding: 0 50px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 150px;
+    }
+    .box:nth-child(2) {
+        grid-row: 2 / 7;
+        grid-column: 1 / 7;
+
+        padding: 0 50px;
+
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+    }
+    .text-content {
+        text-align: center;
+        align-self: center;
+    }
+    .text-content .head {
+        margin: 25px 0;
+    }
+    .text-content h4 {
+        margin-bottom: 25px;
+    }
+    .text-content a {
+        text-decoration: none;
+        color: var(--font-color01);
+    }
+    .text-content a span {
+        color: var(--accent-color01);
+        text-decoration: underline;
+    }
+    .wrapper {
+        display: grid;
+        justify-self: center;
+    }
+    .input {
+        margin: 25px 0;
+    }
+    .input input {
+        height: 50px;
+    }
+    .input label {
+        font-weight: 800;
+    }
+    .input label span {
+        color: #f00;
+    }
+    .input input,
+    textarea {
+        margin-top: 15px;
+        font-size: 1.2rem;
+        color: var(--font-color01);
+        width: 100%;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid var(--font-color01);
+    }
+    button {
+        margin-bottom: 25px;
+        font-size: 18px;
+        padding: 10px 15px;
+        background: transparent;
+        border: 0;
+        color: var(--font-color01);
+        justify-self: center;
+    }
+    .wrapper p {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+    .box:first-child {
+        grid-column: 1 / 7;
+        background: var(--bg-color02);
+
+        padding: 0 50px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 150px;
+    }
+    .box:nth-child(2) {
+        grid-row: 2 / 7;
+        grid-column: 1 / 7;
+
+        padding: 0 50px;
+
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+    }
+    .text-content {
+        text-align: center;
+        align-self: center;
+    }
+    .text-content .head {
+        margin: 25px 0;
+    }
+    .text-content h4 {
+        margin-bottom: 25px;
+    }
+    .text-content a {
+        text-decoration: none;
+        color: var(--font-color01);
+    }
+    .text-content a span {
+        color: var(--accent-color01);
+        text-decoration: underline;
+    }
+    .wrapper {
+        display: grid;
+        justify-self: center;
+    }
+    .input {
+        margin: 25px 0;
+    }
+    .input input {
+        height: 50px;
+    }
+    .input label {
+        font-weight: 800;
+    }
+    .input label span {
+        color: #f00;
+    }
+    .input input,
+    textarea {
+        margin-top: 15px;
+        font-size: 1.2rem;
+        color: var(--font-color01);
+        width: 100%;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid var(--font-color01);
+    }
+    button {
+        margin-bottom: 25px;
+        font-size: 18px;
+        padding: 10px 15px;
+        background: transparent;
+        border: 0;
+        color: var(--font-color01);
+        justify-self: center;
+    }
+    .wrapper p {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .box:nth-child(2) {
+        grid-row: 2 / 7;
+        grid-column: 1 / 7;
+
+        padding: 0 50px;
+
+        display: grid;
+    }
+    .text-content {
+        text-align: center;
+        align-self: center;
+    }
+    .text-content .head {
+        margin: 25px 0;
+    }
+    .text-content h4 {
+        margin-bottom: 25px;
+    }
+    .text-content a {
+        text-decoration: none;
+        color: var(--font-color01);
+    }
+    .text-content a span {
+        color: var(--accent-color01);
+        text-decoration: underline;
+    }
+    .wrapper {
+        padding: 50px 0;
+        display: grid;
+        justify-self: center;
+    }
+    .input {
+        margin: 25px 0;
+    }
+    .input input {
+        height: 50px;
+    }
+    .input label {
+        font-weight: 800;
+    }
+    .input label span {
+        color: #f00;
+    }
+    .input input,
+    textarea {
+        margin-top: 15px;
+        font-size: 1.2rem;
+        color: var(--font-color01);
+        width: 100%;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid var(--font-color01);
+    }
+    button {
+        margin-bottom: 25px;
+        font-size: 18px;
+        padding: 10px 15px;
+        background: transparent;
+        border: 0;
+        color: var(--font-color01);
+        justify-self: center;
+    }
+    .wrapper p {
+        margin-bottom: 50px;
+    }
+    iframe {
+        margin: 50px 0;
+    }
+}
