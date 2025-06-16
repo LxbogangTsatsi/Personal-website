@@ -9,9 +9,37 @@
     <link rel="shortcut icon" href="/images/profile_picture-removebg-preview.png" type="image/x-icon">
     <script defer src="/javascripts/component.js"></script>
     <script defer src="/javascripts/home_page.js"></script>
+    <script defer src="/javascripts/chatbot.js"></script>
     <script src="https://kit.fontawesome.com/71de1e7029.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="chatbot-button">
+        <div class="bot-btn" title="Open chatbot" id="botButton">
+            <i class="fa-solid fa-robot"></i>
+        </div>
+    </div>
+    <div class="chatbot">
+        <div class="chatbot-wrap">
+            <div id="chat-icon"><i class="fa-solid fa-robot"></i></div>
+            <div id="text-content">
+                <h1>Hi There! How can I help you today?</h1>
+                <p>Hi my name is <span>***</span> I am a chatbot, many people confuse me with AI, but I was made using Javascript and <span>YES</span> no Machine Learning. I try my best to help and I learn to communicate through human beings.</p>
+            </div>
+            <div>
+                <aside class="loader"></aside>
+            </div>
+
+            <!-- UserInput -->
+            <div>
+                <div class="form">
+                    <i class="fa-solid fa-robot"></i>
+                    <input id="txtInput" type="text" placeholder="Type Hi to start a new chat">
+                    <button id="sendBtn">Send</button>
+                </div>
+            </div>
+            <!-- UserInput End -->
+        </div>
+    </div>
     <div class="overlay">
         <nav>
             <ul>
