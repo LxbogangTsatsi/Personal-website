@@ -1,62 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About page</title>
-    <link rel="stylesheet" href="/stylesheet/component.css">
-    <link rel="stylesheet" href="/stylesheet/about_page.css">
-    <link rel="shortcut icon" href="/images/profile_picture-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="/stylesheet/component.css" />
+    <link rel="stylesheet" href="/stylesheet/about_page.css" />
+    <link
+      rel="shortcut icon"
+      href="/images/profile_picture-removebg-preview.png"
+      type="image/x-icon"
+    />
     <script defer src="/javascripts/component.js"></script>
-    <script src="https://kit.fontawesome.com/71de1e7029.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/71de1e7029.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="overlay">
-        <nav>
-            <ul>
-                <li><a href="./curriculum_vitae.pdf" download id="resume"><i class="fa-solid fa-user-graduate"></i>Resume</a></li>
-                <li><a href="./about_page.html">About</a></li>
-                <li><a href="./portfolio_page.html">Portfolio</a></li>
-                <li><a href="./contact_page.html">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="./curriculum_vitae.pdf" download id="resume"
+              ><i class="fa-solid fa-user-graduate"></i>Resume</a
+            >
+          </li>
+          <li><a href="./about_page.html">About</a></li>
+          <li><a href="./portfolio_page.html">Portfolio</a></li>
+          <li><a href="./contact_page.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
     <div class="container">
-        <header class="box">
-            <h4 class="home-logo" title="Back to Home Page">Lebogang Tsatsi <span>.</span></h4>
-            <div class="nav">
-                <ul>
-                    <li><a href="./about_page.html">About</a></li>
-                    <li><a href="./portfolio_page.html">Portfolio</a></li>
-                    <li><a href="./contact_page.html">Contact</a></li>
-                    <li><a href="#" id="resume-ipad"><i class="fa-solid fa-user-graduate"></i>Resume</a></li>
-                </ul>
-                <button class="contact-button">Contact</button>
+      <header class="box">
+        <h4 class="home-logo" title="Back to Home Page">
+          Lebogang Tsatsi <span>.</span>
+        </h4>
+        <div class="nav">
+          <ul>
+            <li><a href="./about_page.html">About</a></li>
+            <li><a href="./portfolio_page.html">Portfolio</a></li>
+            <li><a href="./contact_page.html">Contact</a></li>
+            <li>
+              <a href="#" id="resume-ipad"
+                ><i class="fa-solid fa-user-graduate"></i>Resume</a
+              >
+            </li>
+          </ul>
+          <button class="contact-button">Contact</button>
+        </div>
+        <div class="menu-bars">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </header>
+      <main class="box">
+        <div class="text-content01">
+          <h4 class="hidden">About Me</h4>
+          <p class="hidden">
+            Hi I am Lebogang, I code mainly in C# using .NET Framework. 🌐
+            Exploring back-end and full-stack development — with future goals in
+            AI, cloud, and software engineering.
+          </p>
+        </div>
+        <div class="box-images">
+          <div class="casino">
+            <img
+              class="hidden advance-anim"
+              src="/images/casino.jpg"
+              alt="Lebogang at the Casino"
+              width="200px"
+            />
+
+            <div class="flame">
+              <img
+                class="hidden advance-anim2"
+                src="/images/greenFlame.jpg"
+                alt="Picture of a flame"
+              />
             </div>
-            <div class="menu-bars">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div>
-        </header>
-        <main class="box">
-            <div class="text-content01">
-                <h4 class="hidden">About Me</h4>
-                <p class="hidden">Hi I am Lebogang, I code mainly in C# using .NET Framework. 🌐 Exploring back-end and full-stack development — with future goals in AI, cloud, and software engineering.</p>
-            </div>
-            <div class="box-images">
-                <div class="casino">
-                    <img  class="hidden advance-anim" src="/images/casino.jpg" alt="Lebogang at the Casino" width="200px">
-                    
-                    <div class="flame">
-                        <img  class="hidden advance-anim2" src="/images/flame.jpg" alt="Picture of a flame">
-                    </div>
-                </div>
-            </div>
-            <div class="text-content02">
-                <p class="hidden">I enjoy solving problems through code and exploring the intersection between technology, creativity, and real-world impact.</p>
-            </div>
-        </main>
+          </div>
+        </div>
+        <div class="text-content02">
+          <p class="hidden">
+            I enjoy solving problems through code and exploring the intersection
+            between technology, creativity, and real-world impact.
+          </p>
+        </div>
+      </main>
     </div>
-</body>
+  </body>
 </html>
